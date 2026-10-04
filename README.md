@@ -12,3 +12,6 @@ Of course, you can just open `main.poly` in Polytoria Creator 2.0 to instantly g
 
 ## Testing
 You can open `main.poly` in Polytoria Creator 2.0 to instantly test it, or alternatively the [published version](https://polytoria.com/places/144842) to give me bricks from visits, which is the simplest form of donation.
+
+## Troubleshooting
+IF for some reason Polytoria 2.0's `def.d.luau` file breaks again due to slightly destructive changes made on the Luau language, I'd recommend installing the `Luau LSP - Order` VSCode extension by Atomic Horizon **v1.67.2** alongside the `Luau Language Server` VSCode extension by Johnny Morganz (any version). It will magically evaporate away your problems about Polytoria 2.0 definitions failing to load which resulted in a billion error lints.
