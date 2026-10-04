@@ -4,7 +4,7 @@ A port of Q-WINC to Polytoria 2.0 done by rebuilding.
 ![Demo image](images/demo.png)
 
 ## Setup
-In-engine module file structure is the same as on-disk, with a few changes.
+The in-engine module file structure is the same as on-disk, with a few changes.
 For files inside "Modules/PolyWindow", put them all as a descendant of the `PolyWindow.luau` instance.
 For PluginSettings, visit scripts/modules/PolyWindow/Plugins/README.txt
 
