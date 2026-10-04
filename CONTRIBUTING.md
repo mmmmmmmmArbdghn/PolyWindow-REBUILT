@@ -161,4 +161,4 @@ If you encounter a bug or have a feature request, please create a new issue in t
 
 ## Questions?
 
-Need help with something? Create a new issue on GitHub! I or other contributors would probably answer.
+Need help with something? Create a new [Discussion](https://github.com/mmmmmmmmArbdghn/PolyWindow-REBUILT/discussions) on GitHub! I or other contributors would probably answer.

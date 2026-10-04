@@ -25,4 +25,4 @@ The silly built-in GitHub contributor tracker might miss people, so here's an ex
 
 ## Contacts
 
-You can go to the Discussions tab to ask questions.
+You can go to the [Discussions](https://github.com/mmmmmmmmArbdghn/PolyWindow-REBUILT/discussions) tab to ask questions.
