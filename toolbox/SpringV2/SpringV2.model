@@ -1,0 +1,50 @@
+{
+  "Version": "2.0.25",
+  "FileType": 1,
+  "Objects": [
+    {
+      "Name": "SpringV2",
+      "ClassName": "ModuleScript",
+      "ID": "c80f0267-fd5e-4327-b9b9-f4a6f62b5412",
+      "Properties": {
+        "Compatibility": true,
+        "IsEnabled": true,
+        "LinkedScript": "402cd1f8-4cf1-48e4-a30e-b8080d94c849",
+        "Tags": []
+      },
+      "Children": [
+        {
+          "Name": "PropertyHandler",
+          "ClassName": "ModuleScript",
+          "ID": "1d5771ad-fe2b-4b66-bae0-deef99e38bdf",
+          "Properties": {
+            "Compatibility": true,
+            "IsEnabled": true,
+            "LinkedScript": "2d820af3-ce85-494b-8ddd-8be045c70dc8",
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": true
+        },
+        {
+          "Name": "DynamicPropertyAccessor",
+          "ClassName": "ModuleScript",
+          "ID": "ca2233c8-8806-4e29-85a5-ee1b2b22b203",
+          "Properties": {
+            "Compatibility": true,
+            "IsEnabled": true,
+            "LinkedScript": "61d99cd8-af5e-4b4b-bdbe-a34eedbd5746",
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": true
+        }
+      ],
+      "LinkedModel": "1b824d27-e768-4efc-9297-6dc5233a2cfe",
+      "IsLinkedChild": false
+    }
+  ],
+  "NonInstanceObjects": []
+}
