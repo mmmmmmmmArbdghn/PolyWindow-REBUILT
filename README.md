@@ -22,3 +22,7 @@ The silly built-in GitHub contributor tracker might miss people, so here's an ex
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## Contacts
+
+You can go to the Discussions tab to ask questions.
