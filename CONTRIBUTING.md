@@ -2,7 +2,7 @@
 
 By contributing, you agree that your contributions will be licensed under the MIT License.
 
-Thank you for contributing to [PolyWindow-REBUILT!](https://github.com/mmmmmmmmArbdghn/PolyWindow-REBUILT). We LOVE your time and effort. Also, you may be subject to my "interesting" humor.
+Thank you for contributing to [PolyWindow-REBUILT](https://github.com/mmmmmmmmArbdghn/PolyWindow-REBUILT)! We LOVE your time and effort. Also, you may be subject to my "interesting" humor.
 
 ## Prerequisites
 
