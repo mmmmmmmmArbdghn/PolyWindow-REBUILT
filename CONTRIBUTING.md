@@ -90,8 +90,7 @@ function self:addEvent(id)
 	return self
 end
 ```
-- DO NOT EXCEED 10 NEST DEPTH. PUBLIC EXECUTION IMMINENT. PLEASE DON'T. USE EARLY-RETURNS. PLEASE. I BEG YOU.
-- (for legal reasons; public execution = push rejection; it's a joke)
+- Do not exceed 10 nest depth. Please. Use realy-returns instead.
 - Short early-returns are single-line to avoid cramping up the place, unless it's a behemoth of an if statement.
 
 ## Testing Guidelines
