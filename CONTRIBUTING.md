@@ -90,7 +90,7 @@ function self:addEvent(id)
 	return self
 end
 ```
-- Do not exceed 10 nest depth. Please. Use realy-returns instead.
+- Do not exceed 10 nest depth. Please. Use early-returns instead.
 - Short early-returns are single-line to avoid cramping up the place, unless it's a behemoth of an if statement.
 
 ## Testing Guidelines
