@@ -25,7 +25,7 @@ git clone https://github.com/mmmmmmmmArbdghn/PolyWindow-REBUILT.git
 cd PolyWindow-REBUILT
 ```
 
-2. Open the cloned repository in **Polytoria Creator 2.x**
+2. Open `project.ptproj` from the cloned repository in **Polytoria Creator 2.x**
 
 ## Development Workflow
 
