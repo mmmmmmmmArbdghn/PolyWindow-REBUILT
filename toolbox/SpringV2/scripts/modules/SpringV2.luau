@@ -11,9 +11,11 @@
 // background youtube video player : Sharp LC-32LE375E (EG)
 
 // 2.1 version 18/02/2026 (base)
-//   +--> branch Polytoria: 2.0 version || 09/08/2026 ||
+//   +--> branch Polytoria: 2.0 version || 23/10/2026 ||
 
 changelog:
+- changed hooks to prerenders instead (i didn't notice that it was running at half refresh)
+
 - added `tweenCustom` for tweening functions; accepts functions instead of instances, the rest of the syntax is similar
 - added valueTransformer parameter to both `tween` and `tweenCustom`, particularly useful for 360deg rotations
 	
@@ -404,7 +406,7 @@ local calcSprings_toFrame = function(springTable, valueTransformer)
     return allDone
 end
 
-Hooks.Updated:Connect(function(dt)
+Hooks.PreRendered:Connect(function(dt)
     local epsilon = module.epsilon
     local processingTarget = math.floor(module.bucketsProcessed_perFT / (lastDelta + epsilon))
     local processed = 0
