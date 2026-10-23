@@ -99,15 +99,16 @@ Before committing your changes, please ensure that:
 
 - All linting rules pass
 - All tests pass
-- No new warnings appear
-- Especially no new ERRORS appear
+- No console-flooding warnings appear
+- No failures/errors appear
+- Especially no new console-flooding ERRORS appear
 
 ### Test Coverage Requirements
 
-Code coverage definition: **How many lines are ran when testing** divided by **total lines executable**
+Code coverage definition: A rough idea of "**how many lines are ran when testing** divided by **total lines executable**"
 
-- Source files should have at least 80% code coverage
-- New source files should have at least 50% code coverage
+- Critical components have at least 80% code coverage
+- Non-ritical components should have at least 50% code coverage
 - All test functions should be marked with `--@test` above it
 
 ## Pull Request Checklist
@@ -116,48 +117,45 @@ Code coverage definition: **How many lines are ran when testing** divided by **t
 
 - [ ] All linting rules pass
 - [ ] All tests pass
-- [ ] Code coverage is met (>=80%)
+
+Only when contributing to critical components like the `PolyWindow.luau` or base plugins, please:
+
+- [ ] Make sure code coverage is met (>=80%)
 
 ### For Bug Fixes
 
-- [ ] All issues fixed are addressed
 - [ ] No new warnings appear
-- [ ] No new failures in tests
-- [ ] No new bug appears
-- [ ] Especially no more than 2 new bugs appear, which in this case I may ask: why?
+- [ ] No new failures/errors in tests
+- [ ] No new obvious bug appears
+- [ ] Especially no more than 2 new obvious bugs appear, which in this case I may ask: why?
 
 ### Pull Request Requirements
 
 - [ ] Add a clear description of the issue being fixed
 - [ ] Update the description with all changes
-- [ ] Add a link to the issue in your description
 - [ ] Ensure the title is clear and concise
+
+Only when contributing to critical components like the `PolyWindow.luau` or base plugins, please:
+
 - [ ] Include tests for all new features/changes
 
 ### Security
 
-- [ ] Run your code at least once, please
+Only when contributing to critical components like the `PolyWindow.luau` or base plugins, please:
+
+- [ ] Run your code at least once
 - [ ] Check for edge cases in testing
 - [ ] Ensure no sensitive data is exposed
-- [ ] Include all necessary tests
 
 ### Memory Leaks
 
+Only when contributing to critical components like the `PolyWindow.luau` or base plugins, please:
+
 - [ ] Test your code for memory leaks
-- [ ] For code with loops, run your code for over 5 minutes uninterrupted; increase in memory usage should be less than 10%
-- [ ] Include all necessary tests
 
 ## Reporting Issues
 
-If you encounter a bug or have a feature request, please create a new issue in the [issues](https://github.com/mmmmmmmmArbdghn/PolyWindow-REBUILT/issues) tab:
-
-- **Title**: [Short description of the issue]
-- **Description**: Clear description of the problem
-- **Steps to Reproduce**: Step-by-step guide to reproduce the bug
-- **Expected Behavior**: What should happen when you run the code
-- **Actual Behavior**: What actually happens when you run the code
-- **Code Snippets**: Relevant code snippets
-- **Screenshots**: If applicable
+If you encounter a bug or have a feature request, please create a new issue in the [issues](https://github.com/mmmmmmmmArbdghn/PolyWindow-REBUILT/issues) tab and select the template that matches your issue best.
 
 ## Questions?
 
