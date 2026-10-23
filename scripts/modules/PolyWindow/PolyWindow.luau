@@ -22,7 +22,7 @@ o888o  o888o o888ooooood8 o888bood8P'     `YbodP'    o888o o888ooooood8 o888o   
 ///////////////////////////////////////////////////////////////////// 1-OCTOBER-2026 ///////////////#
 
 		MM/DD/YYYY
-VERSION 04/10/2026
+VERSION 23/10/2026
 
 Welcome to PolyWindow (Rebuilt)! It has jiggle physics.
 Just focus on writing your game's admin panel or something.
@@ -57,6 +57,9 @@ Planned features:
 
 
 CHANGES:
+	===== 23/10/2026 =====
+	- fixed half-refresh-rate rendering from SpringV2 hook
+
 	===== 04/10/2026 =====
 	- the github
 	- comments explaining functions
